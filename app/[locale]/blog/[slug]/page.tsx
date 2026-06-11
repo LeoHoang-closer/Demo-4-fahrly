@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { redirect } from "next/navigation";
 import { getPost, getPostSlugs } from "@/blog-system/lib/posts";
 import BlogShell from "@/blog-system/components/BlogShell";
 
@@ -40,6 +40,8 @@ export default async function BlogPost({
 }) {
   const { locale, slug } = await params;
   const post = getPost(slug, locale);
-  if (!post) notFound();
+  if (!post) {
+    redirect(`/${locale}/blog`);
+  }
   return <BlogShell post={post} locale={locale} />;
 }

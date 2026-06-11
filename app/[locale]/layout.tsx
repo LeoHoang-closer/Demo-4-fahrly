@@ -1,8 +1,7 @@
 import { lpRegistry } from "@/lp-system/config/lp-config";
 
 export function generateStaticParams() {
-  const locales = [...new Set(lpRegistry.map((lp) => lp.locale))];
-  return locales.map((locale) => ({ locale }));
+  return [{ locale: "en" }, { locale: "de" }];
 }
 
 export default function LocaleLayout({ children }: { children: React.ReactNode }) {

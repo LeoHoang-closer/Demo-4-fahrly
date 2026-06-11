@@ -1,0 +1,122 @@
+{
+  "slug": "your-hypothesis-slug",
+  "locale": "en",
+  "accentColor": "#6366f1",
+  "hero": {
+    "eyebrow": "For [ICP] who struggle with [Problem]",
+    "headline": "Bold one-line claim about the outcome",
+    "subheadline": "One sentence elaboration. Who it's for. What it replaces.",
+    "ctaLabel": "Get Early Access"
+  },
+  "problem": {
+    "headline": "The problem in plain words",
+    "pains": [
+      {
+        "label": "Pain label 1",
+        "description": "Specific description of the pain. One or two sentences."
+      },
+      {
+        "label": "Pain label 2",
+        "description": "Specific description of the pain. One or two sentences."
+      },
+      {
+        "label": "Pain label 3",
+        "description": "Specific description of the pain. One or two sentences."
+      }
+    ]
+  },
+  "solution": {
+    "headline": "What the product does",
+    "body": "One sentence. Product name does X so that ICP can Y.",
+    "bullets": [
+      "Core capability 1",
+      "Core capability 2",
+      "Core capability 3"
+    ]
+  },
+  "socialProof": {
+    "type": "counter",
+    "counter": {
+      "count": 0,
+      "label": "founders already signed up"
+    }
+  },
+  "features": [
+    {
+      "icon": "Zap",
+      "title": "Feature title 1",
+      "description": "What it does. One sentence."
+    },
+    {
+      "icon": "BarChart2",
+      "title": "Feature title 2",
+      "description": "What it does. One sentence."
+    },
+    {
+      "icon": "Shield",
+      "title": "Feature title 3",
+      "description": "What it does. One sentence."
+    }
+  ],
+  "useCases": {
+    "headline": "Built for teams who need results fast",
+    "items": [
+      {
+        "icp": "ICP persona 1",
+        "need": "core need",
+        "description": "What they get from this product."
+      },
+      {
+        "icp": "ICP persona 2",
+        "need": "core need",
+        "description": "What they get from this product."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Be first in line",
+    "subheadline": "No credit card. No commitment.",
+    "type": "email",
+    "placeholder": "your@email.com",
+    "buttonLabel": "Join the Waitlist"
+  },
+  "dashboard": {
+    "topbar": {
+      "logo": "ProductName",
+      "userInitials": "AJ"
+    },
+    "sidebar": {
+      "items": [
+        { "icon": "LayoutDashboard", "label": "Overview", "active": true },
+        { "icon": "Users", "label": "Clients", "active": false },
+        { "icon": "FileText", "label": "Reports", "active": false },
+        { "icon": "Settings", "label": "Settings", "active": false }
+      ]
+    },
+    "cards": [
+      { "label": "Monthly Revenue", "value": "$24,500", "delta": "+8%", "deltaPositive": true },
+      { "label": "Active Users", "value": "142", "delta": "+3", "deltaPositive": true },
+      { "label": "Churn Rate", "value": "2.1%", "delta": "-0.4%", "deltaPositive": true }
+    ],
+    "chart": {
+      "title": "Revenue over time",
+      "type": "line",
+      "data": [
+        { "label": "Jan", "value": 18000 },
+        { "label": "Feb", "value": 21000 },
+        { "label": "Mar", "value": 19500 },
+        { "label": "Apr", "value": 23000 },
+        { "label": "May", "value": 24500 }
+      ]
+    },
+    "table": {
+      "columns": ["Client", "Plan", "MRR", "Status"],
+      "rows": [
+        ["Acme GmbH", "Pro", "$1,200", "Active"],
+        ["Beta AG", "Starter", "$400", "Active"],
+        ["Gamma Ltd", "Pro", "$1,200", "Churned"],
+        ["Delta Inc", "Enterprise", "$3,800", "Active"]
+      ]
+    }
+  }
+}

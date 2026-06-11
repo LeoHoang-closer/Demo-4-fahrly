@@ -1,0 +1,136 @@
+{
+  "slug": "planning-routes",
+  "locale": "en",
+  "accentColor": "#000000",
+  "bookingUrl": "https://cal.com/fahrly",
+  "seo": {
+    "title": "Stop Losing Money to Overtime, Route Imbalances, and Dispatch Chaos — FAHRLY",
+    "description": "Built for Amazon DSPs and delivery fleet operators. Fahrly helps you balance workloads, reduce overtime, improve driver retention, and keep more routes on schedule."
+  },
+  "navbar": {
+    "logo": "FAHRLY",
+    "ctaLabel": "Book a Demo"
+  },
+  "hero": {
+    "headline": "Stop Losing Money to Overtime, Route Imbalances, and Dispatch Chaos",
+    "subhead": "Built for Amazon DSPs and delivery fleet operators. Fahrly helps you balance workloads, reduce overtime, improve driver retention, and keep more routes on schedule—without hiring more drivers.",
+    "ctaLabel": "Get Started"
+  },
+  "problemSolution": {
+    "pains": [
+      "Drivers Are Finishing Late And Overtime Is Eating Your Margins?\nOne overloaded route can trigger overtime pay, rescue routes, driver frustration, and lower profitability. Most dispatchers only discover problems after it's already too late.",
+      "Too Much Time Spent Managing Routes Manually?\nSpreadsheets, WhatsApp messages, route changes, sick calls, vehicle issues. Every morning starts with dozens of decisions that depend on experience instead of data.",
+      "Good Drivers Are Hard To Keep?\nDrivers who consistently receive unrealistic routes burn out faster, complain more often, and leave sooner. Replacing experienced drivers is expensive and disruptive."
+    ],
+    "solution": "Fahrly helps delivery operators identify route imbalances, overtime risks, underutilized vehicles, and operational bottlenecks. See exactly where time, money, and driver productivity are being lost before problems impact your operation."
+  },
+  "pricing": {
+    "headline": "Pricing",
+    "tiers": [
+      {
+        "name": "Core",
+        "price": "50 €",
+        "period": "/month",
+        "description": "For smaller fleets looking to improve daily operations.",
+        "features": [
+          "Route visibility",
+          "Driver performance tracking",
+          "Fleet analytics",
+          "Email support"
+        ],
+        "ctaLabel": "Start Core",
+        "highlighted": false
+      },
+      {
+        "name": "Operations",
+        "price": "100 €",
+        "period": "/month",
+        "description": "For growing fleets focused on reducing overtime and improving profitability.",
+        "features": [
+          "Everything in Core",
+          "Route balancing insights",
+          "Time tracking",
+          "Payroll calculator",
+          "Digital signatures"
+        ],
+        "ctaLabel": "Start Operations",
+        "highlighted": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom Pricing",
+        "period": "",
+        "description": "For large DSPs and multi-depot operations.",
+        "features": [
+          "Everything in Operations",
+          "Fleet management",
+          "Compliance management",
+          "Driver licence monitoring",
+          "Custom integrations",
+          "Dedicated onboarding"
+        ],
+        "ctaLabel": "Book a Call",
+        "highlighted": false
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready To Run A More Profitable Delivery Operation?",
+    "ctaLabel": "Get Started"
+  },
+  "dashboard": {
+    "topbar": {
+      "logo": "FAHRLY",
+      "userInitials": "MK"
+    },
+    "sidebar": {
+      "items": [
+        { "icon": "LayoutDashboard", "label": "Overview", "active": true },
+        { "icon": "MapPin", "label": "Routes", "active": false },
+        { "icon": "Truck", "label": "Drivers", "active": false },
+        { "icon": "BarChart2", "label": "Reports", "active": false },
+        { "icon": "Settings", "label": "Settings", "active": false }
+      ]
+    },
+    "cards": [
+      { "label": "Revenue This Month", "value": "€124.870", "delta": "+8 %", "deltaPositive": true },
+      { "label": "Active Drivers", "value": "42", "delta": "+2 %", "deltaPositive": true },
+      { "label": "Fleet Margin", "value": "+18 %", "delta": "+1 %", "deltaPositive": true }
+    ],
+    "chart": {
+      "title": "Trips completed per month",
+      "type": "bar",
+      "data": [
+        { "label": "Jan", "value": 18200 },
+        { "label": "Feb", "value": 17400 },
+        { "label": "Mar", "value": 19800 },
+        { "label": "Apr", "value": 21000 },
+        { "label": "May", "value": 22400 },
+        { "label": "Jun", "value": 23100 },
+        { "label": "Jul", "value": 24800 },
+        { "label": "Aug", "value": 24200 },
+        { "label": "Sep", "value": 23600 },
+        { "label": "Oct", "value": 25100 },
+        { "label": "Nov", "value": 26800 },
+        { "label": "Dec", "value": 28400 }
+      ]
+    },
+    "table": {
+      "columns": ["Driver", "Route", "Stops", "Duration", "Status"],
+      "rows": [
+        ["Klaus M.", "R-001", "28", "3,2 h", "Active"],
+        ["Sarah K.", "R-002", "31", "4,1 h", "Active"],
+        ["Tom B.", "R-003", "19", "2,8 h", "In depot"],
+        ["Jana W.", "R-004", "34", "4,5 h", "Active"],
+        ["Peter S.", "R-005", "22", "3,0 h", "Active"],
+        ["Lisa M.", "R-006", "27", "3,7 h", "In depot"],
+        ["Hans F.", "R-007", "31", "4,2 h", "Active"],
+        ["Maria L.", "R-008", "18", "2,5 h", "In depot"],
+        ["Ben H.", "R-009", "29", "3,9 h", "Active"],
+        ["Anna K.", "R-010", "33", "4,4 h", "Active"],
+        ["Max R.", "R-011", "21", "2,9 h", "In depot"],
+        ["Emma S.", "R-012", "26", "3,5 h", "Active"]
+      ]
+    }
+  }
+}

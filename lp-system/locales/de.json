@@ -1,0 +1,136 @@
+{
+  "slug": "planning-routes",
+  "locale": "de",
+  "accentColor": "#000000",
+  "bookingUrl": "https://cal.com/fahrly",
+  "seo": {
+    "title": "Weniger Geldverlust durch Überstunden, unausgeglichene Touren und Dispositionschaos — FAHRLY",
+    "description": "Die Dispositionssoftware für Amazon DSPs, Lieferflotten und Transportunternehmen. Fahrly hilft Ihnen dabei, Touren auszugleichen, Überstunden zu reduzieren und mehr Zustellungen pünktlich abzuschließen."
+  },
+  "navbar": {
+    "logo": "FAHRLY",
+    "ctaLabel": "Demo buchen"
+  },
+  "hero": {
+    "headline": "Weniger Geldverlust durch Überstunden, unausgeglichene Touren und Dispositionschaos.",
+    "subhead": "Die Dispositionssoftware für Amazon DSPs, Lieferflotten und Transportunternehmen. Fahrly hilft Ihnen dabei, Touren auszugleichen, Überstunden zu reduzieren, Fahrer langfristig zu binden und mehr Zustellungen pünktlich abzuschließen – ohne zusätzliches Personal einzustellen.",
+    "ctaLabel": "Jetzt starten"
+  },
+  "problemSolution": {
+    "pains": [
+      "Überstunden reduzieren die Marge und gefährden die Profitabilität?\nEine einzige überlastete Tour kann Überstundenkosten, zusätzliche Rettungstouren, Fahrerfrust und sinkende Gewinne verursachen. Die meisten Disponenten erkennen das Problem erst, wenn es bereits Geld kostet.",
+      "Zu viel Zeit geht für manuelle Disposition verloren?\nExcel-Dateien, WhatsApp-Nachrichten, kurzfristige Touränderungen, Krankmeldungen und Fahrzeugprobleme. Jeder Arbeitstag beginnt mit dutzenden Entscheidungen, die auf Erfahrung statt auf Daten basieren.",
+      "Gute Fahrer langfristig zu halten wird immer schwieriger?\nFahrer mit unrealistischen Tourenplänen sind häufiger gestresst, weniger zufrieden und kündigen schneller. Der Verlust erfahrener Fahrer verursacht hohe Kosten und beeinträchtigt den Betrieb."
+    ],
+    "solution": "Fahrly hilft Lieferflotten, Amazon DSPs und Transportunternehmen dabei, Tourungleichgewichte, Überstundenrisiken, unausgelastete Fahrzeuge und operative Engpässe frühzeitig zu erkennen. Sehen Sie genau, wo Zeit, Geld und Produktivität verloren gehen, bevor daraus ein kostspieliges Problem wird."
+  },
+  "pricing": {
+    "headline": "Preise",
+    "tiers": [
+      {
+        "name": "Core",
+        "price": "50 €",
+        "period": "/Monat",
+        "description": "Für kleinere Lieferflotten, die ihre täglichen Abläufe optimieren möchten.",
+        "features": [
+          "Tourenübersicht",
+          "Fahrerleistungsanalyse",
+          "Fuhrpark-Analysen",
+          "E-Mail-Support"
+        ],
+        "ctaLabel": "Core starten",
+        "highlighted": false
+      },
+      {
+        "name": "Operations",
+        "price": "100 €",
+        "period": "/Monat",
+        "description": "Für wachsende Flotten mit Fokus auf weniger Überstunden und höhere Profitabilität.",
+        "features": [
+          "Alles aus Core",
+          "Analyse von Tourungleichgewichten",
+          "Zeiterfassung",
+          "Lohnabrechnungsrechner",
+          "Digitale Unterschriften"
+        ],
+        "ctaLabel": "Operations starten",
+        "highlighted": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Individuelles Angebot",
+        "period": "",
+        "description": "Für große DSPs, Lieferflotten und Unternehmen mit mehreren Standorten.",
+        "features": [
+          "Alles aus Operations",
+          "Fuhrparkmanagement Software",
+          "Compliance Management",
+          "Führerscheinüberwachung",
+          "Individuelle Integrationen",
+          "Persönliches Onboarding"
+        ],
+        "ctaLabel": "Beratungsgespräch buchen",
+        "highlighted": false
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Bereit für einen profitableren Lieferbetrieb?",
+    "ctaLabel": "Jetzt starten"
+  },
+  "dashboard": {
+    "topbar": {
+      "logo": "FAHRLY",
+      "userInitials": "MK"
+    },
+    "sidebar": {
+      "items": [
+        { "icon": "LayoutDashboard", "label": "Übersicht", "active": true },
+        { "icon": "MapPin", "label": "Fahrten", "active": false },
+        { "icon": "Truck", "label": "Fahrer", "active": false },
+        { "icon": "BarChart2", "label": "Berichte", "active": false },
+        { "icon": "Settings", "label": "Einstellungen", "active": false }
+      ]
+    },
+    "cards": [
+      { "label": "Umsatz diesen Monat", "value": "124.870 €", "delta": "+8 %", "deltaPositive": true },
+      { "label": "Aktive Fahrer", "value": "42", "delta": "+2 %", "deltaPositive": true },
+      { "label": "Fuhrparkmarge", "value": "+18 %", "delta": "+1 %", "deltaPositive": true }
+    ],
+    "chart": {
+      "title": "Abgeschlossene Fahrten pro Monat",
+      "type": "bar",
+      "data": [
+        { "label": "Jan", "value": 18200 },
+        { "label": "Feb", "value": 17400 },
+        { "label": "Mär", "value": 19800 },
+        { "label": "Apr", "value": 21000 },
+        { "label": "Mai", "value": 22400 },
+        { "label": "Jun", "value": 23100 },
+        { "label": "Jul", "value": 24800 },
+        { "label": "Aug", "value": 24200 },
+        { "label": "Sep", "value": 23600 },
+        { "label": "Okt", "value": 25100 },
+        { "label": "Nov", "value": 26800 },
+        { "label": "Dez", "value": 28400 }
+      ]
+    },
+    "table": {
+      "columns": ["Fahrer", "Fahrt", "Stopps", "Dauer", "Status"],
+      "rows": [
+        ["Klaus M.", "R-001", "28", "3,2 h", "Aktiv"],
+        ["Sarah K.", "R-002", "31", "4,1 h", "Aktiv"],
+        ["Tom B.", "R-003", "19", "2,8 h", "Im Depot"],
+        ["Jana W.", "R-004", "34", "4,5 h", "Aktiv"],
+        ["Peter S.", "R-005", "22", "3,0 h", "Aktiv"],
+        ["Lisa M.", "R-006", "27", "3,7 h", "Im Depot"],
+        ["Hans F.", "R-007", "31", "4,2 h", "Aktiv"],
+        ["Maria L.", "R-008", "18", "2,5 h", "Im Depot"],
+        ["Ben H.", "R-009", "29", "3,9 h", "Aktiv"],
+        ["Anna K.", "R-010", "33", "4,4 h", "Aktiv"],
+        ["Max R.", "R-011", "21", "2,9 h", "Im Depot"],
+        ["Emma S.", "R-012", "26", "3,5 h", "Aktiv"]
+      ]
+    }
+  }
+}

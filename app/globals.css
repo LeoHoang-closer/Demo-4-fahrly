@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme inline {
+  /* Layout */
+  --color-background: #fafafa;
+  --color-foreground: #09090b;
+  --color-card:       #ffffff;
+  --color-surface:    #f4f4f5;
+  --color-dashboard:  #f8fafc;
+
+  /* Text */
+  --color-muted:       #71717a;
+  --color-subtle:      #52525b;
+  --color-placeholder: #a1a1aa;
+
+  /* Borders */
+  --color-border: #f0f0f2;
+
+  /* Status — badge backgrounds and foregrounds */
+  --color-success-bg:  #dcfce7;
+  --color-success-fg:  #15803d;
+  --color-warning-bg:  #ffedd5;
+  --color-warning-fg:  #c2410c;
+  --color-error-bg:    #fee2e2;
+  --color-error-fg:    #dc2626;
+
+  /* Fonts — change the var() here to swap typefaces globally */
+  --font-heading: var(--font-grotesk);
+  --font-body:    var(--font-inter);
+  --font-numeric: var(--font-jetbrains);
+}
+
+:root {
+  --font-heading: var(--font-grotesk);
+  --font-body:    var(--font-inter);
+  --font-numeric: var(--font-jetbrains);
+}
+
+body {
+  background-color: theme(colors.background);
+  color: theme(colors.foreground);
+  font-family: var(--font-inter), Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-grotesk), Arial, sans-serif;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.font-numeric {
+  font-family: var(--font-jetbrains), monospace;
+}
